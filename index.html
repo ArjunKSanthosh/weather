@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+        <div class="nav">
+            <h2>Weather</h2>
+        </div>
+     <div class="for">
+            <input type="text" placeholder="Enter city" id="a">
+            <button onclick="button()" class="buty">WEATHER</button> 
+    </div>
+    
+     <div class="weath" id="weath">
+        <h2 id="name"></h2>
+        <div class="deg">
+            <p id="deg1"></p>
+         </div>
+         <div class="cloudy">
+            <h2 id="main"></h2>
+            <img src="" alt="icon" id="im">
+        </div>
+        <div class="tab">
+            <h2>Weather Details</h2>
+            <table>
+                <tr>
+                    <td  class="t1">Feels like</td>
+                    <td  class="t1">Condition</td>
+                </tr>
+                <tr>
+                    <td id="t1"></td>
+                    <td id="t2"></td>
+                </tr>
+                <tr>
+                    <td  class="t1">Wind</td>
+                    <td  class="t1">Humidity</td>
+                </tr>
+                <tr>
+                    <td id="t3">wi</td>
+                    <td id="t4">hu</td>
+                </tr>
+                <tr>
+                    <td  class="t1">Visibility</td>
+                    <td  class="t1">Air pressure</td>
+                </tr> 
+                <tr>
+                    <td id="t5">vi</td>
+                    <td id="t6">ai</td>
+                </tr>
+            </table>
+        </div>
+     </div>
+   
+
+    
+   
+        <script src="./js/weather.js"></script>
+</body>
+</html>

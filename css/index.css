@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    background: linear-gradient(90deg, #6d88b4 0%, #1c55a9 100%);  
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: white;
+    font-size: 50px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+.for{
+    text-align: center;
+    margin-top: 3%;
+
+}
+.for input{
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+.buty{
+    text-align: center;
+}
+.buty{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+    /* background: linear-gradient(90deg , #8fdbff 100%, #335285 0%); */
+}
+.weath{
+    width: 30%;
+    height: 68vh;
+    margin-left: 34.5%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.deg p{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 50px;
+}
+#name{
+    padding-top: 20px;
+    margin-top: 8%;
+    font-size: 25px;
+    text-align: center;
+}
+.cloudy{
+    border-bottom: 1px dotted;
+    width: 95%;
+    margin-left: 2.6%;
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.tab table{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    line-height: 4vh;
+}
+.tab h2{
+    font-size: 25px;
+    margin-left: 2.7%;
+}
+.t1{
+    opacity: 0.7;
+}
