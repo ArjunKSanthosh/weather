@@ -5,18 +5,35 @@
 
 .nav{
     width: 100%;
-    background: linear-gradient(90deg, #6d88b4 0%, #1c55a9 100%);  
+    height: 80px;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
     color: white;
     font-size: 50px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    backdrop-filter: blur(2px);
+    /* background: linear-gradient(45deg, rgba(0,73,254,0.4766281512605042) 0%, rgba(2,145,134,0.4822303921568627) 35%, rgba(2,145,134,0.4766281512605042) 66%, rgba(255,93,227,0.48) 79%); */
+}
+.nav img{
+    height: 110px;
+}
+.nav h2{
+    font-size: 40px;
+    padding-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .for{
     text-align: center;
-    margin-top: 3%;
-
+    width: 30%;
+    margin-left: 34.5%;
+    margin-top: 1%;
+    height: 10vh;
+    padding-top: 30px;
+    border-radius: 10px;
+    background: rgb(0,73,254);
+    background: linear-gradient(45deg, rgba(0,73,254,0.4766281512605042) 0%, rgba(2,145,134,0.4822303921568627) 35%, rgba(2,145,134,0.4766281512605042) 66%, rgba(255,93,227,0.48) 79%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .for input{
     padding: 10px 50px;
@@ -28,9 +45,10 @@
 }
 .buty{
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 8.5px;
     border-radius: 10px;
     font-weight: bolder;
+    border-radius: 80px;
     color: black;
     /* background: linear-gradient(90deg , #8fdbff 100%, #335285 0%); */
 }
@@ -38,40 +56,74 @@
     width: 30%;
     height: 68vh;
     margin-left: 34.5%;
-    margin-top: 3%;
-    background-color: white;
+    margin-top: 1%;
+    background-image: linear-gradient(180deg, rgb(121, 121, 170)50%, rgb(224, 164, 52));
+    color: white;
+    backdrop-filter: blur;
+    text-shadow: 2px 2px 4px #000000;
     border-radius: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: rgb(0,73,254);
+    background: linear-gradient(45deg, rgba(0,73,254,0.4766281512605042) 0%, rgba(2,145,134,0.4822303921568627) 35%, rgba(2,145,134,0.4766281512605042) 66%, rgba(255,93,227,0.48) 79%);
 }
 .deg p{
-    text-align: center;
-    margin-top: 8%;
-    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 6%;
+    font-weight: lighter;
+    font-size: 28px;
 }
 #name{
     padding-top: 20px;
     margin-top: 8%;
-    font-size: 25px;
-    text-align: center;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-left: 6%;
 }
 .cloudy{
     border-bottom: 1px dotted;
-    width: 95%;
-    margin-left: 2.6%;
-    text-align: center;
+    width: 89%;
+    margin-left: 6%;
+    margin-top: 1%;
     font-size: 10px;
     padding-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 .tab table{
+    font-weight: bold;
     margin-top: 5%;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 17%;
     line-height: 4vh;
 }
 .tab h2{
     font-size: 25px;
-    margin-left: 2.7%;
+    font-weight: lighter;
+   text-align: center;
+    margin-top: 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .t1{
     opacity: 0.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parent{
+    background-image: url('../img/sky.jpg');
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 10px; */
+}
+sup{
+    font-size: 15px;
+}
+.tt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
